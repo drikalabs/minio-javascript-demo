@@ -25,6 +25,7 @@
     ```javascript
     var minioClient = new Minio.Client({
         endPoint: 'localhost',
+        port:9000,
         useSSL: false,
         accessKey: 'AKIAIOSFODNN7EXAMPLE', // this is your token from "MINIO_ACCESS_KEY"
         secretKey: 'wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY' // this is your secret key from "MINIO_SECRET_KEY"

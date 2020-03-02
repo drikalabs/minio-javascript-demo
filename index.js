@@ -1,6 +1,7 @@
 var Minio = require('minio');
 var minioClient = new Minio.Client({
-    endPoint: '9f42cc02.ngrok.io',
+    endPoint: 'localhost',
+    port:9000,
     useSSL: true,
     accessKey: 'AKIAIOSFODNN7EXAMPLE',
     secretKey: 'wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY'
